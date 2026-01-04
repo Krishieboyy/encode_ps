@@ -1,0 +1,243 @@
+{
+  "synonyms": {
+    "e330": "citric acid",
+    "e211": "sodium benzoate",
+    "e202": "potassium sorbate",
+    "invert sugar": "sugar",
+    "cane sugar": "sugar",
+    "glucose syrup": "glucose syrup",
+    "high fructose corn syrup": "hfcs",
+    "mono and diglycerides": "mono- and diglycerides",
+    "soya lecithin": "soy lecithin",
+    "natural flavours": "natural flavors",
+    "flavouring": "flavoring",
+    "whey protein concentrate": "whey",
+    "milk solids": "milk",
+    "skimmed milk powder": "milk",
+    "casein": "milk protein"
+  },
+  "ingredients": [
+    {
+      "name": "sugar",
+      "category": "sweetener",
+      "function": "sweetener",
+      "flags": ["added_sugar"],
+      "evidence": "high",
+      "notes": "Common added sugar marker."
+    },
+    {
+      "name": "glucose syrup",
+      "category": "sweetener",
+      "function": "sweetener",
+      "flags": ["added_sugar", "high_glycemic"],
+      "evidence": "high",
+      "notes": "Often rapidly absorbed; quantity matters."
+    },
+    {
+      "name": "hfcs",
+      "category": "sweetener",
+      "function": "sweetener",
+      "flags": ["added_sugar"],
+      "evidence": "high",
+      "notes": "High-fructose corn syrup (label varies by region)."
+    },
+    {
+      "name": "maltodextrin",
+      "category": "sweetener",
+      "function": "bulking agent",
+      "flags": ["added_sugar", "high_glycemic"],
+      "evidence": "high",
+      "notes": "Can behave like fast carbs; often used in processed foods."
+    },
+    {
+      "name": "sucralose",
+      "category": "sweetener",
+      "function": "non-nutritive sweetener",
+      "flags": ["artificial_sweetener"],
+      "evidence": "medium",
+      "notes": "Generally approved; tolerance varies."
+    },
+    {
+      "name": "aspartame",
+      "category": "sweetener",
+      "function": "non-nutritive sweetener",
+      "flags": ["artificial_sweetener"],
+      "evidence": "medium",
+      "notes": "Avoid if phenylketonuria (PKU)."
+    },
+
+    {
+      "name": "soy lecithin",
+      "category": "emulsifier",
+      "function": "emulsifier",
+      "flags": ["emulsifier", "allergen"],
+      "evidence": "medium",
+      "notes": "Emulsifier; soy is a common allergen."
+    },
+    {
+      "name": "sunflower lecithin",
+      "category": "emulsifier",
+      "function": "emulsifier",
+      "flags": ["emulsifier"],
+      "evidence": "medium",
+      "notes": "Often used as an alternative emulsifier."
+    },
+    {
+      "name": "mono- and diglycerides",
+      "category": "emulsifier",
+      "function": "emulsifier",
+      "flags": ["emulsifier"],
+      "evidence": "emerging",
+      "notes": "Common in ultra-processed foods; evidence varies."
+    },
+    {
+      "name": "polysorbate 80",
+      "category": "emulsifier",
+      "function": "emulsifier",
+      "flags": ["emulsifier", "kid_sensitive"],
+      "evidence": "emerging",
+      "notes": "Sensitivity differs; used in processed foods."
+    },
+    {
+      "name": "carrageenan",
+      "category": "emulsifier",
+      "function": "thickener",
+      "flags": ["emulsifier", "kid_sensitive"],
+      "evidence": "emerging",
+      "notes": "Some people report GI sensitivity."
+    },
+
+    {
+      "name": "sodium benzoate",
+      "category": "preservative",
+      "function": "preservative",
+      "flags": ["preservative", "kid_sensitive"],
+      "evidence": "medium",
+      "notes": "Common beverage preservative; sensitivities vary."
+    },
+    {
+      "name": "potassium sorbate",
+      "category": "preservative",
+      "function": "preservative",
+      "flags": ["preservative"],
+      "evidence": "medium",
+      "notes": "Widely used preservative."
+    },
+    {
+      "name": "citric acid",
+      "category": "acidulant",
+      "function": "acidity regulator",
+      "flags": [],
+      "evidence": "high",
+      "notes": "Common acidulant."
+    },
+
+    {
+      "name": "artificial color",
+      "category": "colorant",
+      "function": "color",
+      "flags": ["colorant", "kid_sensitive"],
+      "evidence": "medium",
+      "notes": "Broad marker; specific dyes vary."
+    },
+    {
+      "name": "natural flavors",
+      "category": "flavoring",
+      "function": "flavor",
+      "flags": [],
+      "evidence": "medium",
+      "notes": "Umbrella term; not necessarily 'healthier'."
+    },
+    {
+      "name": "flavoring",
+      "category": "flavoring",
+      "function": "flavor",
+      "flags": [],
+      "evidence": "medium",
+      "notes": "Umbrella term."
+    },
+
+    {
+      "name": "milk",
+      "category": "allergen",
+      "function": "allergen",
+      "flags": ["allergen"],
+      "evidence": "high",
+      "notes": "Milk/dairy allergen marker."
+    },
+    {
+      "name": "whey",
+      "category": "protein",
+      "function": "protein",
+      "flags": ["protein", "allergen"],
+      "evidence": "high",
+      "notes": "Milk-derived protein; allergen for some."
+    },
+    {
+      "name": "milk protein",
+      "category": "protein",
+      "function": "protein",
+      "flags": ["protein", "allergen"],
+      "evidence": "high",
+      "notes": "Milk-derived protein."
+    },
+    {
+      "name": "soy",
+      "category": "allergen",
+      "function": "allergen",
+      "flags": ["allergen"],
+      "evidence": "high",
+      "notes": "Soy allergen marker."
+    },
+    {
+      "name": "wheat",
+      "category": "allergen",
+      "function": "allergen",
+      "flags": ["allergen"],
+      "evidence": "high",
+      "notes": "Wheat/gluten allergen marker."
+    },
+    {
+      "name": "peanut",
+      "category": "allergen",
+      "function": "allergen",
+      "flags": ["allergen"],
+      "evidence": "high",
+      "notes": "Peanut allergen marker."
+    },
+
+    {
+      "name": "pea protein",
+      "category": "protein",
+      "function": "protein",
+      "flags": ["protein"],
+      "evidence": "high",
+      "notes": "Common plant protein."
+    },
+    {
+      "name": "soy protein isolate",
+      "category": "protein",
+      "function": "protein",
+      "flags": ["protein", "allergen"],
+      "evidence": "high",
+      "notes": "Protein + soy allergen marker."
+    },
+
+    {
+      "name": "salt",
+      "category": "other",
+      "function": "flavor",
+      "flags": [],
+      "evidence": "high",
+      "notes": "Not flagged in MVP; consider adding sodium scoring later."
+    },
+    {
+      "name": "palm oil",
+      "category": "fat",
+      "function": "fat",
+      "flags": [],
+      "evidence": "medium",
+      "notes": "Often debated; not scored here unless you add a policy."
+    }
+  ]
+}
